@@ -1,0 +1,15 @@
+* {
+    background-color: black;
+    font-family: fantasy;
+    color: yellow;
+}
+
+.titulo {
+    margin: 50px;
+    padding: 30px;
+    border: 1px solid;
+}
+
+.nome {
+    display: flex;
+}
