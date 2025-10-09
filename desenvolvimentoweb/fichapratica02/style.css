@@ -1,15 +1,110 @@
+/*Para a página toda*/
 * {
     background-color: black;
-    font-family: fantasy;
-    color: yellow;
+    color: yellow; /*aqui será yellow*/
+    font-family: "Changa One", sans-serif;
 }
 
-.titulo {
-    margin: 50px;
-    padding: 30px;
-    border: 1px solid;
+body {
+    margin: 0px;
 }
 
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*HEADER*/
 .nome {
-    display: flex;
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    font-style: italic;
 }
+
+/*BARRA DE NAVEGAÇÃO*/
+.nav {
+    overflow: hidden;
+    background-color:black;
+}
+
+.nav a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.nav a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.nav a.active {
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+}
+
+/*MAIN*/
+/*ASIDE*/
+
+.imag {
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+INFO FONT
+.changa-one-regular {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.changa-one-regular-italic {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+*/
