@@ -1,0 +1,60 @@
+/*FALTA A MEDIA PARA SER RESPONSIVO*/
+
+
+/*estilo geral da barra*/
+.navbar {
+  background-color: #ffb74d;
+  display: flex;
+  justify-content: space-between; /*links à esquerda, busca à direita*/
+  align-items: center;
+  padding: 10px 30px;
+  font-family: "Changa One", sans-serif;
+}
+
+/*lista de links*/
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;  /*espaço entre links*/
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.navbar-links li a:hover {
+  color: white;
+}
+
+/*caixa de busca*/
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-box input {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-box button:hover {
+  background-color: #333;
+}
