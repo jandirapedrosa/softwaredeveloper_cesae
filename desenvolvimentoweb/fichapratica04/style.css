@@ -1,0 +1,85 @@
+/* ==== RESPONSIVIDADE ====*/
+@media (max-width: 768px)
+
+
+/*Principal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f5f9;
+  color: #333;
+}
+
+/* ====== NAVBAR ======*/
+nav {
+  background-color: #004aad;
+  padding: 1.5rem 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(red, green, blue, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/*======CONTAINER======*/
+.container {
+  max-width: 1200px;
+  margin: 3rem auto;  /*centraliza*/
+  padding: 2rem 1.5rem;  /*espaçamento interno*/
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(red, green, blue, 0.08);
+}
+
+/*======CARDS======*/
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(red, green, blue, 0.1);
+  padding: 2rem;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(red, green, blue, 0.15);
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: #555;
+}
+
+/*alinhamento dos cards*/
+.card-wrapper,
+.cards,
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  /*centraliza os cards*/
+  gap: 2rem;
+  margin-top: 2rem;
+}
